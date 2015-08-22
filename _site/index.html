@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>Home | UC Berkeley Robotics</title>
+			<title>Home | Cal Robotics</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<link type="text/css" href="/css/sticky-footer-navbar.css" rel="stylesheet">
+			 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		</head>
 		<body>
 			
 			<nav class="navbar navbar-default navbar-fixed-top">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <a class="navbar-brand" href="/">UC Berkeley Robotics</a>
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>                        
+			      </button>
+			      <a class="navbar-brand" href="/">Cal Robotics</a>
 			    </div>
-			    <div>
+			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="/">Home</a></li>
+			        <li><a href="/">Home</a></li>
 			        <li><a href="/about">About</a></li>
-			        <li><a href="/contact">Contact</a></li>
 			        <li><a href="/join">Join</a></li>
+			        <!-- <li><a href="/blog">Blog</a></li> -->
 			      </ul>
 			    </div>
 			  </div>
@@ -30,14 +37,15 @@
 	<div class="jumbotron">	
 		<!-- <div class="col-sm-9"> -->
 			<h1>Home</h1>
-			<p>Welcome to the UC Berkeley Robotics Team website!</p>
-			<p>We design, fabricate, and compete with awe-inspiring battle bots against other universities from around the globe, putting our practical engineering skills to the very limits.</p>
-			<p>Feel free to <a href="mailto:jprice@berkeley.edu">email</a> us if you want to join our mailing list!</p>
+			<p>Welcome to the Cal Robotics Team website!</p>
+			<p>We design, fabricate, and program robots for both recreation and competition. Our first mission this year will be creating a large combat robot for Robogames 2016, and we'll be adding more epic projects soon!</p>
+			<p>Feel free to <a href="mailto:ucbrobotics@gmail.com">email</a> us if you want to join our mailing list!</p>
 		<!-- </div>
 		<div class="col-sm-3"> -->
 		<!-- </div> -->
 		<script>
-			document.body.style.backgroundImage = "url('img/battlebot.PNG')";
+			document.body.style.backgroundImage = "url('img/battlebot.jpg')";
+			document.body.style.backgroundRepeat = "no-repeat";
 		</script>
 	</div>
 </div><!-- /.blurb -->
@@ -45,7 +53,7 @@
 			</div><!-- /.container -->
 			<div class="footer navbar-fixed-bottom">
 		      <div class="container">
-	        		<p class="text-muted"><a href="jprice@berkeley.edu.com">email</a></li></p>
+	        		<p class="text-muted">&#169; 2015 Cal Robotics. Please email ucbrobotics@gmail.com for general inquiries.</li></p>
 		      </div>
 	    	</div>
 		</body>
