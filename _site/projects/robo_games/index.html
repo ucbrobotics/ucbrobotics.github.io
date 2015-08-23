@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>Contact | Cal Robotics</title>
+			<title>RoboGames | Cal Robotics</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<link type="text/css" href="/css/sticky-footer-navbar.css" rel="stylesheet">
+			<link type="text/css" href="/css/simple-sidebar.css" rel="stylesheet">
 			 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			 <style>
+			 	h1{font-size: 60px;}
+			 	h3{font-size: 30px;}
+			 	p{font-size:17px;}
+			 </style>
 		</head>
 		<body>
 			
 			<nav class="navbar navbar-default navbar-fixed-top">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				  <button type="bsutton" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>                        
@@ -22,38 +28,47 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			      <ul class="nav navbar-nav">
-			        <li><a href="/">Home</a></li>
 			        <li><a href="/about">About</a></li>
 			        <li><a href="/join">Join</a></li>
-			        <!-- <li><a href="/blog">Blog</a></li> -->
+			        <li><a href="/projects">Projects</a></li>
 			      </ul>
 			    </div>
 			  </div>
 			</nav>
 
 			<div class="container">
-			 <div style="width:200px; height:50px;"></div>
-			<div class="container-fluid">
-	<div class="row">
-		<h1>Contact</h1>
-	</div>
-	<div class="row">
-		<div class="col-sm-6">
-			<br>
-			<h3>For general inquiries, please contact:</h3><br>
-			<p>Apollo Jain</p>
-			<p>apollojain@berkeley.edu</p>
-			<br>
-			<p>Joshua Price</p>
-			<p>jprice@berkeley.edu</p>	
-		</div>
-		<div class="col-sm-6">
-			<br>
-			<img src="/img/typing-robot.jpg" alt="battlebot" width="300"/>
-		</div>
+			 <!-- <div style="width:200px; height:50px;"></div> -->
+			<div id="wrapper">
 
-	</div>
-</div><!-- /.blurb -->
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a>Our Projects</a>
+                </li>
+                <li>
+                    <a href="robo_games">Robo Games</a>
+                </li>
+                <li>
+                    <a href="pizza_bot">Pizza Bot</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>RoboGames</h1>
+                        <p>Under Construction</p>             
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 			
 			</div><!-- /.container -->
 			<div class="footer navbar-fixed-bottom">
